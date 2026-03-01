@@ -11,28 +11,29 @@ const topicLinks = [
 ];
 
 const resourceLinks = [
-  { label: 'Case Studies', href: '#' },
-  { label: 'Whitepapers', href: '#' },
-  { label: 'DDRiVE-M', href: '#ddrive-m' },
-  { label: 'Strat Planner Pro', href: '#strat-planner' },
-  { label: 'Real-Time Leadership', href: '#rtl' },
+  { label: 'Case Studies', href: 'https;//asilvainnovations.com/case-studies' },
+  { label: 'Whitepapers', href: 'https;//asilvainnovations.com/white-papers' },
+  { label: 'DDRiVE-M', href: 'https;//asilvainnovations.com/ddrive-m' },
+  { label: 'Smart Flood Detection', href: 'https;//asilvainnovations.com/smart-flood-detection' },
+  { label: 'Strat Planner Pro', href: 'https;//asilvainnovations.com/strat-planner-pro' },
+  { label: 'Real-Time Leadership', href: 'https;//asilvainnovations.com/rtl' },
 ];
 
 const companyLinks = [
-  { label: 'About Us', href: '#' },
-  { label: 'Our Solutions', href: '#solutions' },
-  { label: 'Our Products', href: '#solutions' },
-  { label: 'Pricing Plans', href: '#' },
-  { label: 'Contact Us', href: '#contact' },
-  { label: 'Partnerships', href: '#' },
+  { label: 'About Us', href: 'https;//asilvainnovations.com/about' },
+  { label: 'Our Solutions', href: 'https;//asilvainnovations.com/solutions' },
+  { label: 'AI Solutions', href: 'https;//asilvainnovations.com/ai-solutions' },
+  { label: 'Pricing Plans', href: 'https;//asilvainnovations.com/pricing-plans' },
+  { label: 'Contact Us', href: 'https;//asilvainnovations.com/contact' },
+  { label: 'Partnerships', href: 'https;//asilvainnovations.com/patnerships' },
 ];
 
 const legalLinks = [
-  { label: 'Privacy Policy', href: '#' },
-  { label: 'Terms of Service', href: '#' },
-  { label: 'Cookie Policy', href: '#' },
-  { label: 'Accessibility Policy', href: '#' },
-  { label: 'AI Ethics Framework', href: '#' },
+  { label: 'Privacy Policy', href: 'https;//asilvainnovations.com/privacy-policy' },
+  { label: 'Terms of Service', href: 'https;//asilvainnovations.com/terms' },
+  { label: 'Cookie Policy', href: 'https;//asilvainnovations.com/cookies-policy' },
+  { label: 'Accessibility Policy', href: 'https;//asilvainnovations.com/accessibility' },
+  { label: 'AI Ethics Framework', href: 'https;//asilvainnovations.com/ai-ethics-and-policy-framework' },
 ];
 
 export default function Footer() {
@@ -59,9 +60,14 @@ export default function Footer() {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10 lg:gap-8 mb-16">
             {/* Brand Column */}
             <div className="col-span-2 md:col-span-4 lg:col-span-2">
-              <a href="#" className="inline-block mb-6">
+              <a href="#" className="inline-flex items-center gap-3 mb-6">
+                <img 
+                  src="https://appimize.app/assets/apps/user_1097/images/2c7d825bf937_232_1097.png" 
+                  alt="ASilva Innovations"
+                  className="w-8 h-8 object-contain"
+                />
                 <span className="text-2xl font-semibold text-white tracking-tight">
-                  ASilva
+                  ASilva Innovations
                 </span>
               </a>
               <p className="text-[#A9B3C7] text-sm leading-relaxed mb-6 max-w-sm">
@@ -73,10 +79,10 @@ export default function Footer() {
               {/* Social Links */}
               <div className="flex gap-3">
                 {[
-                  { icon: <Linkedin className="w-4 h-4" />, href: '#' },
-                  { icon: <Twitter className="w-4 h-4" />, href: '#' },
-                  { icon: <Facebook className="w-4 h-4" />, href: '#' },
-                  { icon: <Youtube className="w-4 h-4" />, href: '#' },
+                  { icon: <Linkedin className="w-4 h-4" />, href: 'https://linkedin.asilvainnovations.com' },
+                  { icon: <Twitter className="w-4 h-4" />, href: 'https://twitter.asilvainnovations.com' },
+                  { icon: <Facebook className="w-4 h-4" />, href: 'https://facebook.asilvainnovations.com' },
+                  { icon: <Youtube className="w-4 h-4" />, href: 'https://youtube.asilvainnovations.com' },
                 ].map((social, index) => (
                   <a
                     key={index}
